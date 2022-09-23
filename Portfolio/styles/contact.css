@@ -1,0 +1,155 @@
+body{
+    background-color: #f5f4fc;
+    margin: 0;
+}
+
+/*beginning of header*/
+
+.header{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-header{
+    align-items: center;
+    margin-left: 47px;
+    margin-right: 370px;
+}
+
+.gboyega-text{
+    font-family: cursive;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.gboyega-text2{
+    text-decoration: none;
+}
+
+.nav-header{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.lihead{
+    margin-right: 30px;
+}
+
+.nav-header-text{
+    font-family: cursive;
+    font-size: 10px;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.red-text{
+    color: rgb(255, 0, 0);
+}
+
+.email{
+    background-color: red;
+    font-family: cursive;
+    color: rgba(223, 241, 241, 0.678);
+    height: 42px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 1s;
+}
+
+.email:hover {
+    background-color: #f5f4fc;
+    color: red;
+}
+
+.email:active {
+    opacity: 0.5;
+}
+
+.right-header{
+    margin-right: 50px;
+}
+
+/* That's all for the header*/
+
+/*beginning of body*/
+
+.body-design{
+    max-width: 900px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading{
+    font-family: cursive;
+    color: gray;
+}
+
+.contact-text{
+    color: gray;
+    font-family: cursive;
+    text-align: justify;
+}
+
+.body3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
+
+.general-img{
+    margin-right: 20px;
+}
+
+.email-text{
+    color: gray;
+    font-family: cursive;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.tel-text{
+    color: gray;
+    font-family: cursive;
+    text-align: justify;
+    text-decoration: none;
+}
+
+/*End of body*/
+
+/*beginning of footer*/
+
+.footbar{
+    height: 55px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.foot-text{
+    font-size: 12px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.icon-position{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 550px;
+}
+
+.social-icons{
+    margin-right: 20px;
+}
+
+/*End of footer*/
